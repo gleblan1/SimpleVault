@@ -1,13 +1,3 @@
-# Sample Hardhat Project
+# Token Vault
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
-
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.ts
-```
+This project is a decentralized token vault built on the Ethereum blockchain, utilizing the ERC-20 and ERC-4626 token standard. It allows users to securely store, deposit, and withdraw tokens while providing additional functionalities such as token staking and time-locked releases. The platform features a secure backend and an intuitive frontend, integrated with MetaMask for seamless user interaction. Smart contracts manage token deposits, withdrawals, and staking rewards, ensuring automatic execution and transparent transactions. Events are emitted for tracking activities and integrating with the frontend, enabling real-time updates and a user-friendly experience.
